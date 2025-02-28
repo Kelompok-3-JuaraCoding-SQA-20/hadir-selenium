@@ -50,6 +50,9 @@ public class LaporanSemuaScreen {
                         .until(ExpectedConditions
                                         .presenceOfAllElementsLocatedBy(DATA_TABLE));
         return dataTableElements.size();
-}
+    }
+    
+    
+    
 
 }
